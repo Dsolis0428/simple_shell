@@ -7,9 +7,7 @@ Release date April 11, 2022
 * [Requirements](#Requirements)
     * Output
 * [Functions and system calls](#functions-and-system-calls)
-* [Files](#Files)
 * [GCC command to compile](#gcc-command-to-compile)
-* [Flowchart](#flowchart)
 * [Authors](#authors)
 
 ## Requirements
