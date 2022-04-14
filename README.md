@@ -87,3 +87,16 @@ $
 |[tokenize.c](https://github.com/UCIX210/simple_shell/blob/main/tokenize.c)|Tokenize or split the string by spaces, in substrings save them in an array|
 |[AUTHORS](https://github.com/UCIX210/simple_shell/blob/main/AUTHORS)|Contributors in this repository|
 |[README.md](https://github.com/UCIX210/simple_shell/blob/main/README.md)|Information about our repository|
+
+## GCC command to compile
+```
+gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
+```
+## Flowchart
+
+![image](imagen/flowchart.jpg)
+
+## Authors
+
+<li><a href="https://github.com/UCIX210">Javier Uc Ix</a></li>
+<li><a href="https://github.com/Dsolis0428">Dylan Solis Martins</a></li>
