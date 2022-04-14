@@ -75,26 +75,10 @@ $
 * `wait4` (man 2 wait4)
 * `write` (man 2 write)
 
-### Files
-
-|File|Description|
-|---|---|
-|[shell.h](https://github.com/UCIX210/simple_shell/blob/main/shell.h)|Prototypes functions and headers|
-|[shell.c](https://github.com/UCIX210/simple_shell/blob/main/shell.c)|Main arguments|
-|[prompt.c](https://github.com/UCIX210/simple_shell/blob/main/prompt.c)|FILE|
-|[_print$.c](https://github.com/UCIX210/simple_shell/blob/main/_print%24.c)|Write a '$' in the terminal|
-|[_typed_by_user](https://github.com/UCIX210/simple_shell/blob/main/_typed_by_user.c)|Receives what is written by the user and saves it in a string|
-|[tokenize.c](https://github.com/UCIX210/simple_shell/blob/main/tokenize.c)|Tokenize or split the string by spaces, in substrings save them in an array|
-|[AUTHORS](https://github.com/UCIX210/simple_shell/blob/main/AUTHORS)|Contributors in this repository|
-|[README.md](https://github.com/UCIX210/simple_shell/blob/main/README.md)|Information about our repository|
-
 ## GCC command to compile
 ```
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 ```
-## Flowchart
-
-![image](imagen/flowchart.jpg)
 
 ## Authors
 
