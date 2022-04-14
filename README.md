@@ -35,13 +35,14 @@ $ echo "qwerty" | /bin/../bin/sh
 /bin/../bin/sh: 1: qwerty: not found
 $
 ```
+Same error with your program `hsh` :
+```
 $ echo "qwerty" | ./hsh
 ./hsh: 1: qwerty: not found
 $ echo "qwerty" | ./././hsh
 ./././hsh: 1: qwerty: not found
 $
 ```
-
  ## Functions and system calls
 * `access` (man 2 access)
 * `chdir` (man 2 chdir)
@@ -79,7 +80,6 @@ $
 ```
 gcc -Wall -Werror -Wextra -pedantic *.c -o hsh
 ```
-
 ## Authors
 
 <li><a href="https://github.com/UCIX210">Javier Uc Ix</a></li>
