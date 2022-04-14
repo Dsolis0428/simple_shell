@@ -43,4 +43,34 @@ Change directories
 .SH EXAMPLES
 Below an example of interactive mode:
 
+.RS +4
+$ ./hsh
+.RE
+.RS +4
+($) /bin/ls
+.RE
+.RS +4
+hsh main.c shell.c
+.RE
+.RS +4
+($)
+.RE
+.RS +4
+($) exit
+.RE
+.RS +4
+$
 
+.SH BUGS
+No known bugs until now.
+
+.SH AUTHORS
+.PP
+Javier Uc Ix - https://github.com/UCIX210
+.PP
+Dylan Solis - https://github.com/Dsolisi0428
+
+.PP
+.SH SEE ALSO
+.BR man
+.BR sh
